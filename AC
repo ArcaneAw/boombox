@@ -51,7 +51,7 @@ end
 	mouse.KeyDown:connect(function(key)
 		if key == "t" then
 			local Swing = Instance.new('Animation');
-			Swing.AnimationId = "rbxassetid://7009918446";
+			Swing.AnimationId = "rbxassetid://8254765806"; --7009918446
 			local ld = game:GetService('Players').LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid'):LoadAnimation(Swing)
 			ld:Play()
 			ld:AdjustSpeed(1.3)
